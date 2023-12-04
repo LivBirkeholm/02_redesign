@@ -21,11 +21,12 @@ nav ul {
 nav li {
   color: #2a2f64;
   text-decoration: none;
+  font-family: "Mulish", sans-serif;
 }
 nav a:link {
   text-decoration: none;
   color: #2a2f64;
-  font-size: 18px;
+  font-size: 20px;
 }
 nav a:visited {
   color: #2a2f64;
@@ -42,4 +43,11 @@ nav a:hover {
 .logo_img {
   padding-left: 600px;
   padding-right: 600px;
+}
+
+h1 {
+  font-family: "Mulish", sans-serif;
+}
+p {
+  font-family: "Assistant", sans-serif;
 }
