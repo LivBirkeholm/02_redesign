@@ -11,3 +11,30 @@ img {
   height: auto;
   display: block;
 }
+nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav li {
+  color: #2a2f64;
+  text-decoration: none;
+}
+nav a:link {
+  text-decoration: none;
+  color: #2a2f64;
+  font-size: 18px;
+}
+nav a:visited {
+  color: #2a2f64;
+  text-decoration: none;
+}
+nav a:active {
+  text-decoration: underline;
+  color: #2a2f64;
+}
+nav a:hover {
+  text-decoration: underline;
+}
