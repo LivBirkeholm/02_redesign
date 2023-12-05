@@ -67,6 +67,11 @@ body::before {
   transform: translateY(-50%);
 }
 
+.divider {
+  border-right: 1px solid #dbe2ff;
+  height: 20vh;
+}
+
 h1 {
   font-family: "Mulish", sans-serif;
 }
