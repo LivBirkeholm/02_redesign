@@ -2,11 +2,16 @@
   .grid_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-top: 100px;
+    padding-top: 50px;
     margin: 60px;
   }
   .grid_1-1 {
     padding-top: 150px;
+  }
+}
+@media (max-width: 800px) {
+  .maps_img {
+    padding: 60px;
   }
 }
 
