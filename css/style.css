@@ -74,3 +74,21 @@ p {
   font-family: "Assistant", sans-serif;
   color: #808bb7;
 }
+
+.logo_img {
+  margin: auto;
+  width: 110%;
+  height: auto;
+  padding-left: 45%;
+  padding-right: 45%;
+}
+
+@media (min-width: 700px) {
+  .logo_img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-left: 45%;
+    padding-right: 45%;
+  }
+}
