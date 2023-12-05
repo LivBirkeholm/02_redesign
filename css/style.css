@@ -58,13 +58,6 @@ nav a:visited:hover {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .logo_img {
-    margin: auto;
-    width: 100%;
-    height: auto;
-    padding-left: 45%;
-    padding-right: 45%;
-  }
 }
 @media (max-width: 800px) {
   footer {
@@ -98,4 +91,13 @@ p {
   padding-right: 45%;
   padding-bottom: 50px;
   padding-top: 50px;
+}
+@media (min-width: 700px) {
+  .logo_img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    padding-left: 45%;
+    padding-right: 45%;
+  }
 }
