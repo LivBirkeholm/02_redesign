@@ -1,1 +1,7 @@
-
+p {
+  font-family: "Assistant", sans-serif;
+  color: #808bb7;
+  text-align: center;
+  padding-left: 20%;
+  padding-right: 20%;
+}
