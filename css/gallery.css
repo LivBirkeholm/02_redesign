@@ -11,3 +11,7 @@
   height: 400px;
   object-fit: cover;
 }
+
+@media (min-width: 700px) {
+  grid-template-columns: 1fr;
+}
