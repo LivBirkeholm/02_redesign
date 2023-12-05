@@ -65,11 +65,13 @@ nav a:visited:hover {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  .kronprinsessegade,
-  .aarhusgade,
-  .strandvejen {
-    padding-bottom: 30px;
-  }
+}
+.adresse {
+  padding-bottom: 30px;
+}
+.adresse,
+.tid {
+  line-height: 25px;
 }
 
 h1 {
