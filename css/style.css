@@ -66,6 +66,8 @@ p {
   height: auto;
   padding-left: 45%;
   padding-right: 45%;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 @media (min-width: 700px) {
