@@ -35,22 +35,17 @@ nav a {
   text-decoration: none;
   color: #2a2f64;
   font-size: 20px;
-  transition: text-decoration 0.3s; /* Glat overgang for effekt */
 }
 
+nav a:link,
+nav a:visited {
+  text-decoration: none !important;
+}
+
+nav a:active,
 nav a:hover,
-nav a:active {
-  text-decoration: underline;
-}
-
-nav a {
-  text-decoration: none;
-  color: #2a2f64;
-  font-size: 20px;
-}
-
-nav a.underline {
-  text-decoration: underline;
+nav a:visited:hover {
+  text-decoration: underline !important;
 }
 
 footer {
