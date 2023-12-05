@@ -9,5 +9,19 @@
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
-  line-height: 30px;
+  margin-bottom: 100px;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 100px;
+  margin: 60px;
+  place-items: center;
+}
+
+.square-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
 }
