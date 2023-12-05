@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding-top: 100px;
-    margin: 50px;
+    margin: 60px;
   }
   .grid_1-1 {
     padding-top: 150px;
@@ -22,6 +22,14 @@ p a:visited {
   font-family: "Assistant", sans-serif;
 }
 h1 {
+  padding-top: 70px;
   padding-bottom: 30px;
   color: #2a2f64;
+}
+
+.info,
+.some,
+.adresse,
+.smiley {
+  padding-bottom: 30px;
 }
