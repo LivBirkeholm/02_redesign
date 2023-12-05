@@ -1,17 +1,23 @@
 * {
   margin: 0;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding: 0;
   box-sizing: border-box;
-  background-color: #fdfdfd;
 }
+
 img {
   width: 100%;
   height: auto;
   display: block;
 }
+
+body {
+  background-color: #fdfdfd;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 nav ul {
   display: flex;
   flex-direction: row;
