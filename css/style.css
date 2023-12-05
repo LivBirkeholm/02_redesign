@@ -64,7 +64,7 @@ body::before {
   background-color: #dbe2ff;
   position: absolute;
   top: 60%;
-  transform: translateY(-50%);
+  /* transform: translateY(-50%); */
 }
 
 .divider {
