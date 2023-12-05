@@ -43,6 +43,16 @@ nav a:active {
   text-decoration: underline;
 }
 
+nav a {
+  text-decoration: none;
+  color: #2a2f64;
+  font-size: 20px;
+}
+
+nav a.underline {
+  text-decoration: underline;
+}
+
 footer {
   display: flex;
   flex-direction: row;
