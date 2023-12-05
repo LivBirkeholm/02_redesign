@@ -48,14 +48,28 @@ nav a:visited:hover {
   text-decoration: underline;
 }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  justify-content: space-evenly;
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+@media (min-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .kronprinsessegade,
+  .aarhusgade,
+  .strandvejen {
+    padding-bottom: 30px;
+  }
 }
 
 h1 {
