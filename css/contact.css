@@ -16,8 +16,8 @@
   padding-bottom: 50px;
   padding-top: 50px;
 }
-a:link,
-a:visited {
+p a:link,
+p a:visited {
   color: #808bb7;
   font-family: "Assistant", sans-serif;
 }
