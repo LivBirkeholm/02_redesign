@@ -4,18 +4,3 @@ h1 {
   color: #2a2f64;
   font-weight: bolder;
 }
-body::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 1px;
-  background-color: #dbe2ff;
-  position: absolute;
-  top: 60%;
-  transform: translateY(-50%);
-}
-
-.divider {
-  border-right: 1px solid #dbe2ff;
-  height: 20vh;
-}
