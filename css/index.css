@@ -24,12 +24,7 @@
 p {
   padding-left: 80px;
 }
-a:link,
-a:active,
-a:visited {
-  color: #808bb7;
-  font-family: "Assistant", sans-serif;
-}
+
 .grid_1-1-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
