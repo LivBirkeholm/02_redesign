@@ -9,6 +9,11 @@
     padding-top: 150px;
   }
 }
+@media (max-width: 800px) {
+  .maps_img {
+    padding: 60px;
+  }
+}
 
 .grid_1-1 {
   text-align: center;
