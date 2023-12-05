@@ -73,13 +73,8 @@ a:visited {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
-
-.instagram_link a{
-=======
 .instagram_link a {
   text-decoration: none;
->>>>>>> ba5effbb9cbb021ba56de4dcf0aafa70c7f7ba05
   font-family: "Assistant", sans-serif;
   color: #808bb7;
   font-size: 50px;
