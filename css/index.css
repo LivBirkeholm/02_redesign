@@ -1,15 +1,31 @@
+h1 {
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  font-size: 180px;
+  color: #fdfdfd;
+  text-align: center;
+}
+
 .forside_billede {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 3%;
   padding-bottom: 3%;
 }
 
 .forside_tekst {
   text-align: center;
-  padding-left: 20%;
   padding-right: 20%;
+  padding-left: 20%;
+  padding-top: 60px;
   margin-bottom: 100px;
+}
+
+p {
+  padding-left: 80px;
 }
 
 .grid_1-1-1 {
