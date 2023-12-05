@@ -49,7 +49,8 @@ footer {
   list-style: none;
   justify-content: space-evenly;
   text-align: center;
-  padding-top: 255px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h1 {
