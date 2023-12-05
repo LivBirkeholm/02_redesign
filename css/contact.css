@@ -1,10 +1,27 @@
-.grid_1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-top: 100px;
-  margin: 50px;
+@media (min-width: 800px) {
+  .grid_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 100px;
+    margin: 50px;
+  }
+  .grid_1-1 {
+    padding-top: 150px;
+  }
 }
+
 .grid_1-1 {
   text-align: center;
   line-height: 30px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+a:link,
+a:visited {
+  color: #808bb7;
+  font-family: "Assistant", sans-serif;
+}
+h1 {
+  padding-bottom: 30px;
+  color: #2a2f64;
 }
