@@ -41,3 +41,9 @@ p {
   height: 400px;
   object-fit: cover;
 }
+
+.img_1:hover,
+.img_2:hover,
+.img_3:hover {
+  opacity: 0.5;
+}
