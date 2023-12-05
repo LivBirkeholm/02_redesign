@@ -1,6 +1,11 @@
-p {
-  font-family: "Assistant", sans-serif;
-  color: #808bb7;
+.forside_billede {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.forside_tekst {
   text-align: center;
   padding-left: 20%;
   padding-right: 20%;
