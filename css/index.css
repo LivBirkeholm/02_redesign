@@ -5,7 +5,7 @@ body::before {
   height: 1px;
   background-color: #dbe2ff;
   position: absolute;
-  top: 60%;
+  top: 50%;
   /* transform: translateY(-50%); */
 }
 
