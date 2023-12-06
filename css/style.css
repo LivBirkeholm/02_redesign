@@ -17,7 +17,6 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-
 nav ul {
   display: flex;
   flex-direction: row;
@@ -25,7 +24,6 @@ nav ul {
   align-items: center;
   justify-content: space-evenly;
 }
-
 nav li {
   color: #2a2f64;
   font-family: "Mulish", sans-serif;
@@ -48,24 +46,6 @@ nav a:visited:hover {
   text-decoration: underline;
 }
 
-@media (min-width: 800px) {
-  footer {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-@media (max-width: 800px) {
-  footer {
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
 .adresse {
   padding-bottom: 20px;
   padding-top: 30px;
@@ -90,12 +70,30 @@ p {
   padding-bottom: 50px;
   padding-top: 50px;
 }
-@media (min-width: 700px) {
+
+@media (min-width: 800px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .logo_img {
     margin: auto;
     width: 100%;
     height: auto;
     padding-left: 45%;
     padding-right: 45%;
+  }
+}
+
+@media (max-width: 800px) {
+  footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 }
