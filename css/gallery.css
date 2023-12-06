@@ -7,11 +7,6 @@
   place-items: center;
 }
 
-.grid_1-1-1 img {
-  height: 100%;
-  object-fit: cover;
-}
-
 .square-image {
   width: 400px;
   height: 400px;
