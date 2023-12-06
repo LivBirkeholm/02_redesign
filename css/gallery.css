@@ -1,9 +1,15 @@
 .grid_1-1-1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   margin-top: 100px;
   margin: 60px;
+  gap: 50px;
   place-items: center;
+}
+
+.grid_1-1-1 img {
+  height: 100%;
+  object-fit: cover;
 }
 
 .square-image {
@@ -11,6 +17,7 @@
   height: 400px;
   object-fit: cover;
 }
+
 .img_1:hover,
 .img_2:hover,
 .img_3:hover,
