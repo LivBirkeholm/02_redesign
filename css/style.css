@@ -17,6 +17,7 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+
 nav ul {
   display: flex;
   flex-direction: row;
@@ -96,4 +97,20 @@ p {
     padding-top: 50px;
     padding-bottom: 50px;
   }
+}
+
+.content {
+  /* Stil for indholdet af din side */
+  padding: 20px;
+}
+
+.divider {
+  border: 0.5px solid #808bb7; /* Ændre farven efter behov */
+  margin: 0; /* Fjerner standard margin for <hr> */
+}
+
+footer {
+  background-color: #fdfdfd;
+  padding: 10px;
+  text-align: center;
 }
