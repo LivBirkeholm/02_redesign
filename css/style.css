@@ -92,11 +92,11 @@ p {
 }
 
 /*BURGER-MENU*/
-
 .burger-menu {
   display: none;
   flex-direction: column;
   cursor: pointer;
+  padding-left: 30px;
 }
 .bar {
   background-color: #2a2f64;
