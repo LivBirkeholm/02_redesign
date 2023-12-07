@@ -64,11 +64,10 @@ p {
 }
 .logo_img {
   margin: auto;
-  width: 110%;
   height: auto;
-  padding-left: 45%;
-  padding-right: 45%;
-  padding-bottom: 50px;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-bottom: 30px;
   padding-top: 50px;
 }
 
