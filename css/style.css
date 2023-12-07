@@ -40,8 +40,6 @@ nav a:link,
 nav a:visited {
   text-decoration: none;
 }
-
-nav a:active,
 nav a:hover,
 nav a:visited:hover {
   text-decoration: underline;
