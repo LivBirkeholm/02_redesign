@@ -18,6 +18,7 @@ body {
   padding-bottom: 5px;
 }
 
+/*NAV*/
 nav ul {
   display: flex;
   flex-direction: row;
@@ -28,22 +29,23 @@ nav ul {
 nav li {
   color: #2a2f64;
   font-family: "Mulish", sans-serif;
-}
-
-nav a {
   text-decoration: none;
+}
+nav a {
   color: #2a2f64;
   font-size: 20px;
+  text-decoration: none;
+  display: inline-block;
 }
-
-nav a:link,
-nav a:visited {
+nav a:link {
   text-decoration: none;
 }
 nav a:hover,
-nav a:visited:hover {
+nav a:active,
+nav li.active a {
   text-decoration: underline;
 }
+/*NAV*/
 
 .adresse {
   padding-bottom: 20px;
@@ -152,13 +154,12 @@ p {
 }
 
 .content {
-  /* Stil for indholdet af din side */
   padding: 20px;
 }
 
 .divider {
-  border: 0.5px solid #808bb7; /* Ændre farven efter behov */
-  margin: 0; /* Fjerner standard margin for <hr> */
+  border: 0.5px solid #808bb7;
+  margin: 0;
 }
 
 footer {
