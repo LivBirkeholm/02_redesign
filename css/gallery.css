@@ -13,19 +13,21 @@
   object-fit: cover;
 }
 
-.img_1:hover,
-.img_2:hover,
-.img_3:hover,
-.img_4:hover,
-.img_5:hover,
-.img_6:hover,
-.img_7:hover,
-.img_8:hover,
-.img_9:hover,
-.img_10:hover,
-.img_11:hover,
-.img_12:hover {
-  opacity: 0.5;
+@media (min-width: 800px) {
+  .img_1:hover,
+  .img_2:hover,
+  .img_3:hover,
+  .img_4:hover,
+  .img_5:hover,
+  .img_6:hover,
+  .img_7:hover,
+  .img_8:hover,
+  .img_9:hover,
+  .img_10:hover,
+  .img_11:hover,
+  .img_12:hover {
+    opacity: 0.5;
+  }
 }
 .modal {
   display: none;

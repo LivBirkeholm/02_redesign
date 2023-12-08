@@ -33,13 +33,13 @@
 
 @media screen and (max-width: 1300px) {
   .overlay_text {
-    position: absolute; /* Behold positionen som absolut på mindre skærme */
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 20px; /* Juster efter behov */
-    z-index: 1; /* Behold z-index på mindre skærme */
+    margin-top: 20px;
+    z-index: 1;
     font-size: 78px;
     color: #fdfdfd;
   }
@@ -47,13 +47,13 @@
 
 @media screen and (max-width: 1000px) {
   .overlay_text {
-    position: absolute; /* Behold positionen som absolut på mindre skærme */
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 20px; /* Juster efter behov */
-    z-index: 1; /* Behold z-index på mindre skærme */
+    margin-top: 20px;
+    z-index: 1;
     font-size: 50px;
     color: #fdfdfd;
   }
@@ -61,13 +61,13 @@
 
 @media screen and (max-width: 800px) {
   .overlay_text {
-    position: absolute; /* Behold positionen som absolut på mindre skærme */
+    position: absolute;
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    margin-top: 30px; /* Juster efter behov */
-    z-index: 1; /* Behold z-index på mindre skærme */
+    margin-top: 30px;
+    z-index: 1;
     font-size: 35px;
     color: #fdfdfd;
   }
