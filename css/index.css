@@ -31,7 +31,6 @@
   padding-bottom: 3%;
 }
 
-
 @media screen and (max-width: 1300px) {
   .overlay_text {
     position: absolute;
@@ -126,16 +125,18 @@
   font-family: "Assistant", sans-serif;
   color: #808bb7;
   font-size: 20px;
-  padding-left: 76px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
+p {
+  padding-left: 76px;
+  font-size: 20px;
+}
 
 @media (min-width: 800px) {
   .video{
       padding-top: 40px;
       margin-top: 60px;
-  }
 }
 
 video {
@@ -145,4 +146,5 @@ video {
   padding-left: 5%;
   padding-right: 5%;
   padding-bottom: 10%;
+  padding-right: 10%;
 }
