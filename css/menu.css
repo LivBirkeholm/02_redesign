@@ -7,7 +7,6 @@ h1 {
 @media (min-width: 800px) {
   table {
     padding-left: 270px;
-    padding-right: 200px;
     padding-top: 50px;
     padding-bottom: 50px;
     line-height: 25px;
@@ -16,7 +15,7 @@ h1 {
     padding-right: 500px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
   table {
     padding-left: 50px;
     padding-right: 50px;
