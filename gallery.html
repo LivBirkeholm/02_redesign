@@ -73,6 +73,15 @@
                 onclick="openModal('img/foto12.webp')">
         </div>
 
+        <div class="modal" id="imageModal">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div class="modal-content-container">
+                <img class="modal-content" id="enlargedImg" src="" alt="Enlarged Image">
+                <span class="prev" onclick="changeImage(-1)">&#8249;</span>
+                <span class="next" onclick="changeImage(1)">&#8250;</span>
+            </div>
+        </div>
+
         <div class="content">
 
         </div>
