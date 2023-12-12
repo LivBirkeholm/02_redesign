@@ -4,13 +4,3 @@ h1 {
   color: #2a2f64;
   font-weight: bolder;
 }
-@media screen and (min-width: 800px) {
-  img {
-    width: 60%;
-  }
-}
-.menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
