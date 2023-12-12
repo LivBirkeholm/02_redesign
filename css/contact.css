@@ -22,20 +22,20 @@ p a:visited {
   font-family: "Assistant", sans-serif;
 }
 .contact_tekst p {
-  font-size: 20px;
+  font-size: 18px;
 }
 .titel_bold {
   font-weight: bolder;
   padding-top: 20px;
 }
 h1 {
-  padding-top: 70px;
+  padding-top: 20px;
   padding-bottom: 30px;
   color: #2a2f64;
 }
 .info,
 .some,
-.adresse,
+.adresse_tekst,
 .smiley {
   padding-bottom: 30px;
 }
