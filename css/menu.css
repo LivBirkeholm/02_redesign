@@ -25,13 +25,13 @@ h1 {
     line-height: 25px;
   }
 }
-
 table td {
   font-family: "Assistant", sans-serif;
+  font-size: 18px;
 }
 table th {
   font-family: "Mulish", sans-serif;
-  font-size: 22px;
+  font-size: 24px;
   text-align: left;
 }
 .drinks,
@@ -44,4 +44,7 @@ table th {
 .food {
   padding-bottom: 10px;
   text-decoration: underline;
+}
+.info {
+  font-style: italic;
 }
