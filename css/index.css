@@ -128,7 +128,7 @@
   text-decoration: underline;
 }
 
-p {
+.instagram_link p {
   padding-left: 76px;
   font-size: 20px;
 }
@@ -143,11 +143,8 @@ video {
 }
 
 @media (min-width: 800px) {
-  .video{
-      padding-top: 40px;
-      margin-top: 60px;
-      }
+  .video {
+    padding-top: 40px;
+    margin-top: 60px;
+  }
 }
-
-
-
