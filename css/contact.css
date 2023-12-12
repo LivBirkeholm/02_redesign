@@ -14,7 +14,7 @@
   text-align: center;
   line-height: 30px;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 p a:link,
 p a:visited {
@@ -23,10 +23,6 @@ p a:visited {
 }
 .contact_tekst p {
   font-size: 18px;
-}
-.titel_bold {
-  font-weight: bolder;
-  padding-top: 20px;
 }
 h1 {
   padding-top: 20px;
@@ -50,7 +46,11 @@ h1 {
 }
 .walk_ins {
   font-style: italic;
+  padding-bottom: 30px;
 }
-.info span {
+.walk_ins span {
   text-decoration: underline;
+}
+.mails span {
+  font-weight: 900;
 }
