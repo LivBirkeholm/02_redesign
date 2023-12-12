@@ -12,6 +12,9 @@ h1 {
     padding-bottom: 50px;
     line-height: 25px;
   }
+  .item {
+    padding-right: 500px;
+  }
 }
 @media (max-width: 800px) {
   table {
@@ -22,9 +25,7 @@ h1 {
     line-height: 25px;
   }
 }
-.item {
-  padding-right: 500px;
-}
+
 table td {
   font-family: "Assistant", sans-serif;
 }
