@@ -48,3 +48,9 @@ h1 {
     padding: 60px;
   }
 }
+.walk_ins {
+  font-style: italic;
+}
+.info span {
+  text-decoration: underline;
+}
