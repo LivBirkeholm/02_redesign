@@ -47,11 +47,11 @@
   width: 50%;
 }
 .close {
-  color: #000000;
+  color: #2a2f64;
   position: absolute;
   top: 10px;
   right: 20px;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   cursor: pointer;
   z-index: 100;
@@ -67,11 +67,11 @@
   top: 50%;
   font-size: 80px;
   cursor: pointer;
-  color: black;
+  color: #2a2f64;
 }
 .prev {
-  left: 50px;
+  left: 40px;
 }
 .next {
-  right: 50px;
+  right: 40px;
 }

@@ -51,6 +51,7 @@ h1 {
 .walk_ins span {
   text-decoration: underline;
 }
-.mails span {
+.mails span,
+.headquarters {
   font-weight: 900;
 }
