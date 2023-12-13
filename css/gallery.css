@@ -27,6 +27,7 @@
   .img_11:hover,
   .img_12:hover {
     opacity: 0.5;
+    cursor: pointer;
   }
 }
 .modal {
